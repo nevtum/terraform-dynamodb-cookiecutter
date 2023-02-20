@@ -8,7 +8,7 @@ Getting started
 2. Assuming you've named your module `dynamo_table` reference it with
 ```Terraform
 module "my_module" {
-  source = "./cache"
+  source = "./dynamo_table"
 }
 ```
 3. Initialize your Terraform setup with `terraform init`
